@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1{
+  font-size: 50px;
+  color: rgb(189, 188, 188);
+}
+
+
+.choice-button{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(159, 215, 214);
+  margin: 15px;
+  cursor: pointer;
+  transition: .1s ease-in;
+}
+.choice-button:hover{
+  transform: scale(1.2);
+}
+
+.choice-image{
+  height: 75px;
+
+}
+
+.back-reset{
+  width: 80px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(44, 18, 242);
+  color: white;
+  font-size: 17px;
+  font-size: larger;
+  /* font-weight: bold; */
+  border-radius: 5px;
+  transition: .1s ease-in;
+
+}
+
+.back-reset:hover{
+  transform:  scale(1.2);
+  background-color: rgb(21, 153, 186);
+}
